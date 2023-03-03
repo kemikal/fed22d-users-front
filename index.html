@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hello Users</h1>
     <ul id="userList"></ul>
 
     <div>
-        <input type="text" id="newUser">
-        <button id="saveUserBtn">Spara</button>
+      <input type="text" id="newUser" />
+      <input type="text" id="newUserPassword" />
+      <button id="saveUserBtn">Spara</button>
     </div>
 
-</body>
+    <div>
+      <h3>Logga in här:</h3>
+      <input type="text" id="loginUsername" placeholder="Användarnamn" />
+      <input type="text" id="loginPassword" placeholder="Lösenord" />
+      <button id="loginUserBtn">Logga in</button>
+      <button id="logoutUserBtn">Logga ut</button>
+    </div>
+    <h2 id="userGreeting">Godmorgon!</h2>
+  </body>
 </html>
