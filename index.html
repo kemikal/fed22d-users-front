@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <script src="script.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <h1>Hello Users</h1>
-    <ul id="userList"></ul>
+
+    <div id="head">
+      <h1>Hello Users</h1>
+      <div id="meny"><button id="showUserListBtn">Visa användare</button></div>
+      <div id="userForm"></div>
+    </div>
+
+    <div id="root">
+
+    </div>
+
+    <div id="footer">
+    Våran fot
+    </div>
+    
+    <!-- <ul id="userList"></ul> -->
 
     <div>
       <input type="text" id="newUser" />
@@ -17,13 +32,14 @@
       <button id="saveUserBtn">Spara</button>
     </div>
 
-    <div>
+    <!-- <div>
       <h3>Logga in här:</h3>
       <input type="text" id="loginUsername" placeholder="Användarnamn" />
       <input type="text" id="loginPassword" placeholder="Lösenord" />
       <button id="loginUserBtn">Logga in</button>
       <button id="logoutUserBtn">Logga ut</button>
-    </div>
+    </div> -->
+
     <h2 id="userGreeting">Godmorgon!</h2>
   </body>
 </html>
