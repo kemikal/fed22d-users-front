@@ -97,7 +97,7 @@ saveUserBtn.addEventListener("click", () => {
    })
    .then(res => res.json())
    .then(data => {
-        printUsers(data);
+        printUserList(data);
    });
    newUser.value = "";
    newUserPassword.value = "";
